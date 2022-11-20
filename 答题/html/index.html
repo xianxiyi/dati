@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="../css/index.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<!--读取文件-->
+	<!--<script src=../js/readfile.js type="module"></script>-->
+	<!--显示内容-->
+	<div id="app">
+		<h1 id="title" v-text="text"></h1>
+		<button v-on:click="start" v-show="showbutton">开始</button>
+		<p  id="answer"v-if="showanswer">本题答案:{{answer}}</p>
+		<p v-text='countdown' v-if="showcount"></p>
+	</div>
+	<!--获取弹幕内容-->
+    <script src="../js/index2.js" type="module"></script>
+	<div id="phb">
+		<p v-text="pmid1"></p>
+		<p v-text="pms1"></p>
+		<p v-text="pmid2"></p>
+		<p v-text="pms2"></p>
+		<p v-text="pmid3"></p>
+		<p v-text="pms3"></p>
+		<p v-text="pmid4"></p>
+		<p v-text="pms4"></p>
+		<p v-text="pmid5"></p>
+		<p v-text="pms5"></p>
+	</div>
+	<!--解压弹幕-->
+	<script src="../js/pako.js"></script>
+	<!--vue开发环境
+	<script src="http://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
+	<script src="../js/vue.js"></script>
+	<!--<script src="https://unpkg.com/axios/dist/axios.min.js"></script>-->
+	<!--读取文件及显示-->
+	<script src="../js/display.js" type="module"></script>
+	
+	<!--显示排行榜-->
+	<script src="../js/phb.js" type="module"></script>
+	
+</body>
+
+</html>
