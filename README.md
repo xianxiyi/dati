@@ -77,3 +77,7 @@ npm init -y,回车
 点击html,index.html,预览，点击是安装
 
 点击预览
+
+打开d盘，新建文件夹desktop,打开desktop文件夹，新建题库.txt
+
+点击js,index2.js,找到roomid后面的数字改为你的直播间号
