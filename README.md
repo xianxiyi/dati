@@ -12,7 +12,7 @@
 
 有建议可以联系我，我会想办法
 
-#运行代码
+# 运行
 
 下载hbuilder:https://www.dcloud.io/hbuilderx.html
 
