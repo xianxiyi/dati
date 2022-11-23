@@ -18,7 +18,9 @@
 
 解压到桌面
 
-下载nodejs:https://nodejs.org/en/,选择lts，进去后选择x64.msi下载
+下载nodejs:https://nodejs.org/en/
+
+选择lts，进去后选择后面为x64.msi的下载
 
 安装
 
