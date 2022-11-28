@@ -12,6 +12,12 @@
 
 有建议可以联系我，我会想办法
 
+# 下载
+
+直接下载答题1.1.zip
+
+解压在d盘目录下的desktop文件夹里
+
 # 运行
 
 下载hbuilder:https://www.dcloud.io/hbuilderx.html
